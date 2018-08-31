@@ -2,7 +2,7 @@ const express = require('express');
 const controller = require('./app/Controllers/Controller')
 const app = express();
 
-app.listen(3000, () => {
+app.listen(9000, () => {
   	console.log('listening on 9000')
 })
 
